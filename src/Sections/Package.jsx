@@ -27,7 +27,7 @@ const Package = () => {
                     <Card.Title className="bg-slate-600 uppercase  text-white text-center rounded py-2">
                       {item.package}
                     </Card.Title>
-                    <ul className="bg-pink-200 text-slate-900 rounded py-2 hover:bg-teal-600 hover:text-white cursor-pointer   transition-colors ">
+                    <ul className="bg-pink-200  text-slate-900 rounded py-2 hover:shadow-xl shadow-teal-600 hover:bg-teal-600 hover:text-white cursor-pointer   transition-colors ">
                       <li>
                         {item.desc1 && (
                           <Card.Text className="my-1">

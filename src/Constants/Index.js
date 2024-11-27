@@ -1,15 +1,23 @@
 import carousel1 from "../assets/carousel1.jpg";
 import carousel2 from "../assets/carousel2.jpg";
 import carousel3 from "../assets/carousel3.jpg";
+import carousel4 from "../assets/long.jpg";
 
-import holud from "../assets/holud.jpg";
-import landscape from "../assets/landscape.jpg";
-import khoma from "../assets/khoma.jpg";
+import g1 from "../assets/holud.jpg";
+import g2 from "../assets/landscape.jpg";
+import g3 from "../assets/khoma.jpg";
+import g4 from "../assets/bride.jpg";
+import g5 from "../assets/handF.jpg";
+import g6 from "../assets/handp.jpg";
+import g7 from "../assets/seniorApu.jpg";
+import g8 from "../assets/senior.jpg";
 
-import { IoTimeOutline } from "react-icons/io5";
-import { CiImageOn } from "react-icons/ci";
-import { MdOutlineDesignServices } from "react-icons/md";
-import { BiSolidPhotoAlbum } from "react-icons/bi";
+import icon1 from "../assets/icon/phone-call.png";
+import icon2 from "../assets/icon/whatsapp.png";
+import icon3 from "../assets/icon/email.png";
+import icon4 from "../assets/icon/maps-and-flags.png";
+
+
 
 export const navItems = [
   {
@@ -42,7 +50,6 @@ export const navItems = [
     title: "gallery",
     url: "/gallery",
   },
-  
 ];
 
 export const packages = [
@@ -96,7 +103,7 @@ export const carouselItems = [
   },
   {
     id: "2",
-    img: carousel2,
+    img: g8,
     title: "",
   },
 ];
@@ -139,36 +146,70 @@ export const contactDetailse = [
     id: "0",
     title: "+880 1611-928537",
     url: "tel:+880 1611-928537",
-    icon: "phone icon",
+    icon: icon1,
   },
   {
     id: "2",
-    title: "whatsapp",
+    title: "+880 1611-928537",
     url: "https://wa.me/+8801611-928537",
-    icon: "whatsapp icon",
+    icon: icon2,
   },
   {
     id: "3",
-    title: "dhaka banglaedsh",
+    title: "ahantor602@gmail.com",
+    url: "mailto:ahantor602@gmail.com",
+    icon: icon3,
+  },
+  {
+    id: "4",
+    title: "dhaka university area",
     url: "https://maps.app.goo.gl/9CbXna1iGdtYtiMF7",
-    icon: "map icon",
+    icon: icon4,
   },
 ];
 
 export const galleryImages = [
   {
     id: "0",
-    title: "holud",
-    url: holud,
+    title: "mehendi",
+    url: g1,
   },
+
   {
     id: "1",
-    title: "khoma",
-    url: khoma,
+    title: "landscape",
+    url: g2,
+  },
+  {
+    id: "4",
+    title: "sharri",
+    url: g5,
   },
   {
     id: "2",
-    title: "landscape",
-    url: landscape,
+    title: "khoma",
+    url: g3,
   },
+  {
+    id: "3",
+    title: " s s",
+    url: g4,
+  },
+  
+  {
+    id: "5",
+    title: "hands of love",
+    url: g6,
+  },
+  {
+    id: "6",
+    title: "cute senipor",
+    url: g7,
+  },
+  {
+    id: "7",
+    title: "mood",
+    url: g8,
+  },
+  
 ];
