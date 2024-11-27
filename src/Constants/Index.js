@@ -16,8 +16,6 @@ import icon2 from "../assets/icon/whatsapp.png";
 import icon3 from "../assets/icon/email.png";
 import icon4 from "../assets/icon/maps-and-flags.png";
 
-
-
 export const navItems = [
   {
     id: "0",
@@ -110,34 +108,36 @@ export const carouselItems = [
 export const blog = [
   {
     id: "0",
-    blogTitle: "blog1",
-    blogDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit pariatur, magni veritatis culpa tenetur dolorum eveniet deserunt est dicta sed porro maxime odio ipsum quas necessitatibus laborum non earum.",
+    blogTitle: "1. Master the Basics of Composition",
+    blogDesc1:"Teach the rule of thirds, leading lines, and the importance of framing.",
+    blogDesc2:"Use examples to show how these techniques transform an image.",
   },
   {
     id: "1",
-    blogTitle: "blog number 2",
-    blogDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit pariatur, magni veritatis culpa tenetur dolorum eveniet deserunt est dicta sed porro maxime odio ipsum quas necessitatibus laborum non earum.",
+    blogTitle: "2. Understand Lighting",
+    blogDesc1:"Explain the magic of golden hour for outdoor photography.",
+    blogDesc2:"Share tips on how to use natural and artificial light effectively.",
+    blogDesc3:"Discuss how light direction impacts mood and texture in photos.",
   },
   {
     id: "2",
-    blogTitle: "blog 3",
-    blogDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit pariatur, magni veritatis culpa tenetur dolorum eveniet deserunt est dicta sed porro maxime odio ipsum quas necessitatibus laborum non earum.",
-  },
+    blogTitle: "3. Shoot in RAW Format",
+    blogDesc1:"Highlight the benefits of shooting in RAW, like better control in post-processing.",
+    blogDesc2:"Offer guidance on how to edit RAW files for beginners",
+    blogDesc3:"",  },
   {
     id: "3",
-    blogTitle: "blog 3",
-    blogDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit pariatur, magni veritatis culpa tenetur dolorum eveniet deserunt est dicta sed porro maxime odio ipsum quas necessitatibus laborum non earum.",
+    blogTitle: "4. Experiment with Different Angles",
+    blogDesc1:"Encourage readers to break out of the eye-level habit.",
+    blogDesc2:"Suggest shooting from high, low, or unique perspectives for dynamic results.",
+    blogDesc3:"Discuss how light direction impacts mood and texture in photos.",
   },
   {
     id: "4",
-    blogTitle: "fourth blog",
-    blogDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit pariatur, magni veritatis culpa tenetur dolorum eveniet deserunt est dicta sed porro maxime odio ipsum quas necessitatibus laborum non earum.",
-  },
+    blogTitle: "5. Learn Your Camera Settings",
+    blogDesc1:"Demystify aperture, shutter speed, and ISO with easy examples.",
+    blogDesc2:"Share tips on how to use natural and artificial light effectively.",
+    blogDesc3:"Share quick tips for using manual mode effectively.",},
 ];
 
 export const contactDetailse = [
@@ -194,11 +194,11 @@ export const galleryImages = [
     title: " s s",
     url: g4,
   },
-  
+
   {
     id: "5",
     title: "title",
-    url: carousel4 ,
+    url: carousel4,
   },
   {
     id: "6",
@@ -210,5 +210,4 @@ export const galleryImages = [
     title: "mood",
     url: g8,
   },
-  
 ];
