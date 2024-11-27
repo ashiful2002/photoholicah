@@ -10,7 +10,7 @@ import logo from "../assets/logo.png";
 const Header = () => {
   return (
     <>
-      <Navbar sticky="top" expand="md" className="bg-body-tertiary sticky" collapseOnSelect className="bg-body-tertiary">
+      <Navbar sticky="top" expand="md" className="bg-body-tertiary sticky" collapseOnSelect >
         <Container>
           <Navbar.Brand href="/">
             {/* <img src={logo} width={90}  alt="logo" /> */}
