@@ -8,7 +8,6 @@ import g2 from "../assets/landscape.jpg";
 import g3 from "../assets/khoma.jpg";
 import g4 from "../assets/bride.jpg";
 import g5 from "../assets/handF.jpg";
-import g6 from "../assets/handp.jpg";
 import g7 from "../assets/seniorApu.jpg";
 import g8 from "../assets/senior.jpg";
 
@@ -196,11 +195,11 @@ export const galleryImages = [
     url: g4,
   },
   
-  {
-    id: "5",
-    title: "hands of love",
-    url: g6,
-  },
+  // {
+  //   id: "5",
+  //   title: "hands of love",
+  //   url: g6,
+  // },
   {
     id: "6",
     title: "cute senipor",

@@ -14,7 +14,7 @@ const Gallery = () => {
             <div className="p-3 border shadow rounded grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 hover:text-white">
               {galleryImages &&
                 galleryImages.map((item) => (
-                  <div className=" p-2 my-2 rounded hover:bg-violet-300 shadow-xl  hover:transition ease-out  delay-250">
+                  <div key={item.id} className=" p-2 my-2 rounded hover:bg-violet-300 shadow-xl  hover:transition ease-out  delay-250">
                     <img src={item.url} alt={item.title} />
                     <p className="text-center capitalize text-slate-700 ">
                       {item.title}
