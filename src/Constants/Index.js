@@ -144,7 +144,7 @@ export const contactDetailse = [
   {
     id: "2",
     title: "whatsapp",
-    url: "https://wa.me/+8801727475744",
+    url: "https://wa.me/+8801611-928537",
     icon: "whatsapp icon",
   },
   {
