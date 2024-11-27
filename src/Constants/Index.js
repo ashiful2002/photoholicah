@@ -195,11 +195,11 @@ export const galleryImages = [
     url: g4,
   },
   
-  // {
-  //   id: "5",
-  //   title: "hands of love",
-  //   url: g6,
-  // },
+  {
+    id: "5",
+    title: "title",
+    url: carousel4 ,
+  },
   {
     id: "6",
     title: "cute senipor",
