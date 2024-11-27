@@ -29,19 +29,20 @@ export const navItems = [
   },
   {
     id: "3",
+    title: "contact",
+    url: "/#contact",
+  },
+  {
+    id: "4",
     title: "blog",
     url: "/blog",
   },
   {
-    id: "4",
+    id: "5",
     title: "gallery",
     url: "/gallery",
   },
-  {
-    id: "5",
-    title: "contact",
-    url: "/#contact",
-  },
+  
 ];
 
 export const packages = [
