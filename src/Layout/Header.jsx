@@ -15,7 +15,7 @@ const Header = () => {
           <Navbar.Brand href="/">
             {/* <img src={logo} width={90}  alt="logo" /> */}
             <h2 className="font-serif tracking-tighter border rounded-md px-2
-             text-violet-700 font-extrabold shadow-md shadow-red-800">
+             text-violet-700 font-extrabold shadow-md shadow-violet-800">
               Photoholic AH
             </h2>
           </Navbar.Brand>
