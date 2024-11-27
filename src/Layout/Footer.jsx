@@ -1,18 +1,17 @@
 import React from "react";
 
 const Footer = () => {
+  const fullYear = new Date().getFullYear();
   return (
     <div className="bg-neutral-700 text-white">
       <div className="container mx-auto">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between capitalize px-2 flex-col">
           <div>
-            <p>
-              all right reserved by <span>react</span>
-            </p>
+            <p>Copyright © {fullYear} Photoholic AH. All Rights Reserved</p>
           </div>
           <p>
             developed by{" "}
-            <a href="#" target="_blank">
+            <a href="#">
               mukto
             </a>
           </p>
