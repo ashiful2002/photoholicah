@@ -3,10 +3,11 @@ import React from "react";
 import heroImage from "../assets/react.svg";
 import photoholic from "../assets/photoholic.jpg"
 import PageTitle from "../Components/Title.jsx/PageTitle";
+
 const Hero = () => {
   return (
 
-    <div className="bg-amber-100" id="home">
+    <div className="bg-[#F6F7C4] rounded" id="feature">
 
     
     <div className="container mx-auto" >

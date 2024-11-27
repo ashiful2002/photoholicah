@@ -4,6 +4,8 @@ import App from "../App";
 import ErrorPage from "../pages/ErrorPage";
 import Header from "../Layout/Header";
 import Hero from "../Sections/Hero";
+import Blog from "../pages/Blog";
+import Gallery from "../pages/Gallery";
 
 
  const  router = createBrowserRouter([
@@ -14,6 +16,14 @@ import Hero from "../Sections/Hero";
         {
           path: "/",
           element: <App />,
+        },
+        {
+          path: "/blog",
+          element: <Blog />,
+        },
+        {
+          path: "/gallery",
+          element: <Gallery />,
         },
         {
           path: "*",

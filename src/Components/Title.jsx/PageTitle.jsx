@@ -6,7 +6,7 @@ const PageTitle = ({ title, heading, className }) => {
     <>
       {title && (
         <Helmet>
-          <title>{title} - site </title>
+          <title>{title} - Photoholic AH </title>
         </Helmet>
       )}
       {heading && <h1 className={`heading  ${className} `}>{heading}</h1>}

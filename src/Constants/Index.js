@@ -2,31 +2,45 @@ import carousel1 from "../assets/carousel1.jpg";
 import carousel2 from "../assets/carousel2.jpg";
 import carousel3 from "../assets/carousel3.jpg";
 
+import holud from "../assets/holud.jpg";
+import landscape from "../assets/landscape.jpg";
+import khoma from "../assets/khoma.jpg";
+
+import { IoTimeOutline } from "react-icons/io5";
+import { CiImageOn } from "react-icons/ci";
+import { MdOutlineDesignServices } from "react-icons/md";
+import { BiSolidPhotoAlbum } from "react-icons/bi";
+
 export const navItems = [
   {
     id: "0",
     title: "home",
-    url: "#home",
+    url: "/#home",
   },
   {
     id: "1",
     title: "feature",
-    url: "#feature",
+    url: "/#feature",
   },
   {
     id: "2",
     title: "packages",
-    url: "#packages",
+    url: "/#packages",
   },
   {
     id: "3",
     title: "blog",
-    url: "#blog",
+    url: "/blog",
   },
   {
     id: "4",
-    title: "archives",
-    url: "/archives",
+    title: "gallery",
+    url: "/gallery",
+  },
+  {
+    id: "5",
+    title: "contact",
+    url: "/#contact",
   },
 ];
 
@@ -56,9 +70,10 @@ export const packages = [
   {
     id: "3",
     package: "custom",
-    desc1: "as your demand",
+    desc1: "",
     desc2: "",
     desc3: "",
+    customPackage: "contact messages is here",
   },
 ];
 
@@ -82,5 +97,77 @@ export const carouselItems = [
     id: "2",
     img: carousel2,
     title: "",
+  },
+];
+
+export const blog = [
+  {
+    id: "0",
+    blogTitle: "blog1",
+    blogDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit pariatur, magni veritatis culpa tenetur dolorum eveniet deserunt est dicta sed porro maxime odio ipsum quas necessitatibus laborum non earum.",
+  },
+  {
+    id: "1",
+    blogTitle: "blog number 2",
+    blogDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit pariatur, magni veritatis culpa tenetur dolorum eveniet deserunt est dicta sed porro maxime odio ipsum quas necessitatibus laborum non earum.",
+  },
+  {
+    id: "2",
+    blogTitle: "blog 3",
+    blogDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit pariatur, magni veritatis culpa tenetur dolorum eveniet deserunt est dicta sed porro maxime odio ipsum quas necessitatibus laborum non earum.",
+  },
+  {
+    id: "3",
+    blogTitle: "blog 3",
+    blogDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit pariatur, magni veritatis culpa tenetur dolorum eveniet deserunt est dicta sed porro maxime odio ipsum quas necessitatibus laborum non earum.",
+  },
+  {
+    id: "4",
+    blogTitle: "fourth blog",
+    blogDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita suscipit pariatur, magni veritatis culpa tenetur dolorum eveniet deserunt est dicta sed porro maxime odio ipsum quas necessitatibus laborum non earum.",
+  },
+];
+
+export const contactDetailse = [
+  {
+    id: "0",
+    title: "+880 1611-928537",
+    url: "tel:+880 1611-928537",
+    icon: "phone icon",
+  },
+  {
+    id: "2",
+    title: "whatsapp",
+    url: "https://wa.me/+8801727475744",
+    icon: "whatsapp icon",
+  },
+  {
+    id: "3",
+    title: "dhaka banglaedsh",
+    url: "https://maps.app.goo.gl/9CbXna1iGdtYtiMF7",
+    icon: "map icon",
+  },
+];
+
+export const galleryImages = [
+  {
+    id: "0",
+    title: "holud",
+    url: holud,
+  },
+  {
+    id: "1",
+    title: "khoma",
+    url: khoma,
+  },
+  {
+    id: "2",
+    title: "landscape",
+    url: landscape,
   },
 ];

@@ -14,13 +14,14 @@ const Header = () => {
         <Container>
           <Navbar.Brand href="/">
             {/* <img src={logo} width={90}  alt="logo" /> */}
-            <h2 className="font-serif tracking-tighter border rounded-md text-violet-700 font-extrabold shadow-md shadow-red-800">
+            <h2 className="font-serif tracking-tighter border rounded-md px-2
+             text-violet-700 font-extrabold shadow-md shadow-red-800">
               Photoholic AH
             </h2>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="">
+            <Nav className="ms-auto">
               {navItems.map((item) => (
                 <Nav.Link
                   className="text-center capitalize"
