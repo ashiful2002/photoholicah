@@ -2,7 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 import { carouselItems } from "../Constants/Index";
 function Featured() {
   return (
-    <div className="bg-[#F6D6D6] rounded" id="home">
+    <div className="container" id="home">
 
 
     

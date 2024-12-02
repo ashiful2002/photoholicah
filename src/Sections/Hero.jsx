@@ -1,18 +1,18 @@
 import React from "react";
 
 import heroImage from "../assets/react.svg";
-import photoholic from "../assets/logo.png";
+import photoholic from "../assets/photoholic.jpg";
 import PageTitle from "../Components/Title.jsx/PageTitle";
 
 const Hero = () => {
   return (
-    <div className="bg-[#F6F7C4] rounded" id="feature">
+    <div className="" id="feature">
       <div className="container mx-auto">
         {/* <PageTitle heading="hero section " title="home"/> */}
         <div className=" flex items-center justify-center gap-5 flex-col">
           <div className="pt-5">
             <img
-              className="rounded-md shadow bg-slate-900"
+              className="rounded shadow-md shadow-violet-300 bg-slate-900"
               width={300}
               src={photoholic}
               alt="heroImage"

@@ -9,8 +9,8 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div id="contact" className="bg-[#7BD3EA] rounded">
-      <div>
+    <div id="contact" className="">
+      <div className="container">
         <div>
           <div className=" py-4">
             <PageTitle

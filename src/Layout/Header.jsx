@@ -10,7 +10,7 @@ import logo from "../assets/logo.png";
 const Header = () => {
   return (
     <>
-      <Navbar sticky="top" expand="md" className="bg-body-tertiary sticky" collapseOnSelect >
+      <Navbar sticky="top" expand="md"  className="bg-body-tertiary" collapseOnSelect >
         <Container>
           <Navbar.Brand href="/">
             {/* <img src={logo} width={90}  alt="logo" /> */}
@@ -24,11 +24,11 @@ const Header = () => {
             <Nav className="ms-auto">
               {navItems.map((item) => (
                 <Nav.Link
-                  className="text-center capitalize"
+                  className=" capitalize text-xl "
                   key={item.id}
                   href={item.url}
                 >
-                  {item.title}
+                 <span className="text-left ml-40 "> {item.title}</span>
                 </Nav.Link>
               ))}
             </Nav>

@@ -1,7 +1,7 @@
 import React from "react";
 
 import { packages } from "../Constants/Index";
-import { Button, Card } from "react-bootstrap";
+import {  Card } from "react-bootstrap";
 
 import PageTitle from "../Components/Title.jsx/PageTitle";
 import { IoTimeOutline } from "react-icons/io5";
@@ -12,12 +12,12 @@ import { BiSolidCustomize } from "react-icons/bi";
 
 const Package = () => {
   return (
-    <div className="bg-[#A1EEBD] rounded" id="packages">
+    <div className=" bg-gradient-to-b from-teal-400 " id="packages">
       <div>
         <div className="container mx-auto">
           <PageTitle
             heading="packages"
-            className="text-violet-500 bg-transparent "
+            className="text-violet-500 bg-transparent pt-4"
           />
           <div className="grid grid-cols-1 md:grid-cols-4">
             {packages.map((item) => (

@@ -7,7 +7,7 @@ import Contact from "./Sections/Contact.jsx";
 
 const App = () => {
   return (
-    <div className="rounded ">
+    <div className="bg-[#F6F7C4] rounded ">
       {/* <Features />
        */}
       <Featured />
