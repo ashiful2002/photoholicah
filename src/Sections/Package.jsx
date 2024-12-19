@@ -12,7 +12,7 @@ import { BiSolidCustomize } from "react-icons/bi";
 
 const Package = () => {
   return (
-    <div className=" bg-gradient-to-b from-teal-400 " id="packages">
+    <div className="" id="packages">
       <div>
         <div className="container mx-auto">
           <PageTitle

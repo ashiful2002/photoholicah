@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <p>
             developed by{" "}
-            <a href="#">
+            <a href="https://ashiful-islam.vercel.app/">
               mukto
             </a>
           </p>

@@ -24,11 +24,11 @@ const Header = () => {
             <Nav className="ms-auto">
               {navItems.map((item) => (
                 <Nav.Link
-                  className=" capitalize text-xl "
+                  className=" capitalize "
                   key={item.id}
                   href={item.url}
                 >
-                 <span className="text-left ml-40 "> {item.title}</span>
+                 <span className="text-left  "> {item.title}</span>
                 </Nav.Link>
               ))}
             </Nav>
